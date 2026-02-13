@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.code {
+  font-size: 80px;
+  color: #0b3d91;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0b3d91;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}

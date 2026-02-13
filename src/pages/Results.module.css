@@ -1,0 +1,50 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.totalVotes {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.resultCard {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.rank {
+  font-weight: bold;
+}
+
+.barBackground {
+  background: #eee;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  transition: width 0.6s ease;
+}
+
+.leader {
+  background: #0b3d91;
+}
+
+.normal {
+  background: #4a90e2;
+}

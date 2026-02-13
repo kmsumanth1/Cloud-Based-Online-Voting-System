@@ -1,0 +1,55 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.welcome {
+  margin-bottom: 30px;
+}
+
+.candidateList {
+  margin-top: 20px;
+}
+
+.candidateCard {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.candidateCard:hover {
+  background: #f4f6f9;
+}
+
+.selected {
+  border: 2px solid #0b3d91;
+  background: #eef3ff;
+}
+
+.submitButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0b3d91;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.success {
+  margin-top: 30px;
+  color: green;
+  font-weight: bold;
+}

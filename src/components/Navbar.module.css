@@ -1,0 +1,51 @@
+.navbar {
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* VOTER THEME */
+.voter {
+  background: white;
+  border-bottom: 2px solid #0b3d91;
+  color: #0b3d91;
+}
+
+.voter a {
+  color: #0b3d91;
+}
+
+/* ADMIN THEME */
+.admin {
+  background: #1f1f1f;
+  color: white;
+}
+
+.admin a {
+  color: #4a90e2;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoutBtn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #0b3d91;
+  color: white;
+}
+
+.admin .logoutBtn {
+  background: #4a90e2;
+}
